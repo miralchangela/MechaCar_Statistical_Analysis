@@ -91,7 +91,7 @@ The results are shown in Figures below. The only lot with a statistical differen
 - Lot 3: p-value = 1, alpha = 0.05
 - 1 > 0.05, which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
-![Lot3](https://github.com/miralchangela/MechaCar_Statistical_Analysis/blob/main/images/lot2%20summary%20result.png)
+![Lot3](https://github.com/miralchangela/MechaCar_Statistical_Analysis/blob/main/images/lot3%20summary%20result.png)
 
 ## Study Design: MechaCar vs Competition
 
