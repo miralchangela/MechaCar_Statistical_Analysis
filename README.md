@@ -98,16 +98,18 @@ The results are shown in Figures below. The only lot with a statistical differen
 When comparing MechaCar to its competitor’s other metrics that could be of interest to a consumer could include cost, car color, city fuel efficiency, highway fuel efficiency, horsepower, maintenance cost, or safety rating.
 
 1. What metric or metrics are you going to test?
+
 Weight : The relationship between MPG and Weight seem to have a linear relationship with a negative association that is moderatley strong.From the data we can conclude that lighter weight vehicles have high MPG when heavier weight vehicles have low MPG.
 
 2. What is the null hypothesis or alternative hypothesis?
 
 Null hypothesis: "vehicle weight is not affect the MPG of vehicle."
-
-alternative hypothesis: "vehicle weight is affect the MPG of vehicle."
+Alternative hypothesis: "vehicle weight is affect the MPG of vehicle."
 
 3. What statistical test would you use to test the hypothesis? And why?
 
+A statistical hypothesis test is a method of statistical inference used to decide whether the data at hand sufficiently support a particular hypothesis. Hypothesis testing allows us to make probabilistic statements about population parameters.so for weight metric we can use T-test to test the hypothesis.
 
 4. What data is needed to run the statistical test?
+
 Vehicle Weight data for all current vehicle models (including the MechaCar)
