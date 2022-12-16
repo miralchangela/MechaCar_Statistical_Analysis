@@ -41,14 +41,14 @@ t.test(suspension_coil$PSI,mu=1500)
 
 #for condition of manufacturing lot 1 in data frame
 suspension_coil_lot1 <- subset(suspension_coil , Manufacturing_Lot == 'Lot1')
-t.test(suspension_coil_lot1$PSI , mu=mean(suspension_coil$PSI))
+t.test(suspension_coil_lot1$PSI , mu=1500)
 
 
 #for condition of manufacturing lot 2 in data frame
 suspension_coil_lot2 <- subset(suspension_coil , Manufacturing_Lot == 'Lot2')
-t.test(suspension_coil_lot2$PSI , mu=mean(suspension_coil$PSI))
+t.test(suspension_coil_lot2$PSI , mu=1500)
 
 
 #for condition of manufacturing lot 3 in data frame
 suspension_coil_lot3 <- subset(suspension_coil , Manufacturing_Lot == 'Lot3')
-t.test(suspension_coil_lot3$PSI , mu=mean(suspension_coil$PSI))
+t.test(suspension_coil_lot3$PSI , mu=1500)
