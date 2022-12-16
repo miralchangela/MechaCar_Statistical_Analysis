@@ -67,29 +67,30 @@ The results are shown in Figures below. The only lot with a statistical differen
 
 ### T-test for all Lots
 
-- All Manufacturing Lots: p-value = 1 , alpha (significance level) = 0.05
-- 1 > 0.05, which means the total manufacturing lot is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+- All Manufacturing Lots: p-value =  0.06028 , alpha (significance level) = 0.05
+-  0.06028 > 0.05, which means the total manufacturing lot is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval. 
+- Within this condition we could regect the null hypothesis which indicates there is no relation between variables. Afterthat we could accept the alternative hypothesis which indicates that there is some correlation between independent and dependent variables.
 
 ![all lots](https://github.com/miralchangela/MechaCar_Statistical_Analysis/blob/main/images/t%20test%20reuslt.png)
 
 ### T-test for Lot 1
 
-- Lot 1: p-value = 1.568e-11, alpha = 0.05
-- 1.568e-11 < 0.05, which means Lot 1 is statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+- Lot 1: p-value = 1, alpha = 0.05
+- 1 > 0.05, which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
 ![Lot1](https://github.com/miralchangela/MechaCar_Statistical_Analysis/blob/main/images/lot1%20summary%20result.png)
 
 ### T-test for Lot 2
 
-- Lot 2: p-value = 0.0005911, alpha = 0.05
-- 0.0005911 < 0.05, which means Lot 2 is statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+- Lot 2: p-value = 0.6072, alpha = 0.05
+- 0.6072 > 0.05, which means Lot 2 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
 ![Lot2](https://github.com/miralchangela/MechaCar_Statistical_Analysis/blob/main/images/lot2%20summary%20result.png)
 
 ### T-test for Lot 3
 
-- Lot 3: p-value = 0.1589, alpha = 0.05
-- 0.1589 > 0.05, which means Lot 3 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+- Lot 3: p-value = 0.04168, alpha = 0.05
+- 0.04168 < 0.05, which means Lot 3 is  statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
 ![Lot3](https://github.com/miralchangela/MechaCar_Statistical_Analysis/blob/main/images/lot3%20summary%20result.png)
 
